@@ -1,5 +1,8 @@
 package com.tecsup.petclinic.services;
 
+import org.junit.jupiter.api.Test;
+
+@Test
 public void testCreateOwner() {
     String OWNER_NAME = "Mario";
     String OWNER_LASTNAME = "Ventosilla";
