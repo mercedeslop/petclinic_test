@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 
 @Test
 public void testCreateOwner() {
-    String OWNER_NAME = "Mario";
-    String OWNER_LASTNAME = "Ventosilla";
+    String OWNER_NAME = "Jhersin";
+    String OWNER_LASTNAME = "Aldana";
     Owner owner = new Owner(OWNER_NAME, OWNER_LASTNAME, null, null, null);
     Owner ownerCreated = this.ownerService.create(owner);
     log.info("OWNER CREATED: " + ownerCreated.toString());
