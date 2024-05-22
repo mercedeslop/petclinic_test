@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 @Test
 public void testUpdateOwner() {
-    String OWNER_NAME = "Fernanda";
-    String OWNER_LASTNAME = "Villo";
-    String UP_OWNER_NAME = "Fernando";
-    String UP_OWNER_LASTNAME = "Villa";
+    String OWNER_NAME = "Paolo";
+    String OWNER_LASTNAME = "Guerrero";
+    String UP_OWNER_NAME = "José";
+    String UP_OWNER_LASTNAME = "Miranda";
     Owner owner = new Owner(OWNER_NAME, OWNER_LASTNAME, null, null, null);
 
     // Create
