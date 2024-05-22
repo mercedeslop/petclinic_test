@@ -15,16 +15,15 @@ public void testUpdateOwner() {
     Owner ownerCreated = this.ownerService.create(owner);
     log.info(">>" + ownerCreated);
 
-    // Update
-    // Prepare data for update
+    //Actualizar
     ownerCreated.setFirst_name(UP_OWNER_NAME);
     ownerCreated.setLast_name(UP_OWNER_LASTNAME);
 
-    // Execute update
+    //Ejecutar actualización
     Owner upgradedOwner = this.ownerService.update(ownerCreated);
     log.info(">>>>" + upgradedOwner);
 
-    // Verify
+    //Verificar
     assertEquals(UP_OWNER_NAME, upgradedOwner.getFirst_name());
     assertEquals(UP_OWNER_LASTNAME, upgradedOwner.getLast_name());
 }
